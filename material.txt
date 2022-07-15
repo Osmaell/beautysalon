@@ -1,0 +1,128 @@
+VIEWPORT 
+
+    meta name="viewport" 
+
+        viewport significa tudo que o usuário vê na página. Diferente
+        do body, o viewport tem haver com a largura e altura do dispositivo.
+
+    content="width=device-width, initial-scale=1.0"
+
+        significa que a largura deve receber a largura do
+        device (dispositivo). Serve para deixar o documento
+        muito mais flexível para qualquer tipo de dispositivo.
+
+###############################################################
+
+CASCADING
+
+    A cascata define o estilo da última definição de estilo. Exemplo:
+
+        .button {
+            background-color: red;
+        }
+        
+        SERÁ APLICADO ESSA ESTILIZAÇÃO POIS É A ÚLTIMA
+        .button {
+            background-color: black; 
+        }
+
+ESPECIFICIDADE
+
+    Define a prioridade da estilização.
+        (peso 1) inline <>
+        (peso 2) ID seletor #
+        (peso 3) Class, pseudo class, atribute seletor .
+        (peso 4) Element Seletor 
+
+###############################################################
+
+BOX-SIZING
+
+    O comportamento padrão do box-model é o seguinte:
+
+        Se eu tenho uma largura de elemento de 100px
+        e é colocado um padding de 20px, vai somar e
+        o resultado será 140px.
+        
+    border-box define para o CSS que a caixa (box) seja
+    contada a partir da borda do elemento. 
+
+###############################################################
+
+UNIDADE DE MEDIDA
+
+    Pixel é uma unidade de medida estática.
+    Rem é uma unidade de medida relativa.
+
+    :root element é um elemento raiz, ou seja, serve como referência 
+    para todas as outras tags. Por padrão o font-size é 16px, definido
+    pelo navegador.
+
+    :root {
+        font-size: 100%; /* 100% é 16px por padrão, definido pelo navegador. */
+    }
+
+    Exemplo:
+
+        4.5rem = 4.5 x 16px (font-size do :root element) que é 72px
+
+    Para sites responsivos NÃO É RECOMENDADO utilizar pixels.
+
+
+    Responsivo é o que responde aos diversos tipos de telas.
+
+###############################################################
+
+No CSS um elemento fica abaixo do outro por padrão. Para alterar 
+podemos utilizar diversas maneiras, dentre elas o display: flex;
+
+    display: flex;
+
+VARIÁVEIS 
+
+    NO CSS uma variável serve para armazenar um valor 
+    que será utilizado depois. Exemplo de criação de uma
+    variável:
+
+        body {
+            --color: red
+        }
+
+    Exemplo de chamado de uma variável:
+
+        h1 {
+            color: var(--color)
+        }
+
+###############################################################
+PACK DE ÍCONES
+
+    É simplesmente transformar os ícones em uma maneira
+    para utilizar como CSS e HTML puro.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

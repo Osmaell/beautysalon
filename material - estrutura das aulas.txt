@@ -1,0 +1,22 @@
+####### AULA 02 #################################################
+
+  ETAPAS
+    
+    * Estrutura do menu
+    * Pack de ícones
+    * Menu Mobile
+      - Abrir ao clicar no ícone
+      - Tela cheia
+      - Esconder ao clicar 
+    * Section
+      - Sobre
+        - Imagem
+        - Texto
+      - Serviços
+        - Cards
+    * Rolagem Suave
+    * Header scroll
+
+  TECNOLOGIA
+
+    * JavaScript
